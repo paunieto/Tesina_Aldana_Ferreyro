@@ -3,13 +3,6 @@
 Estrategia A: Explorar la vía de degradación de PHE y ANT en KEGG
 usando un grafo de reacciones del mapa map00624.
 
-VERSIÓN v4 - Estructura para esquema apaisado propio:
-- compounds: lista con flags (is_root, is_convergence, is_final, external_link)
-- edges: aristas con edge_style (solid/dashed) y edge_direction (forward/lateral)
-- external_connections: salidas a otros mapas (Naphthalene, Benzoate, etc.)
-- summary: resumen numérico para el reporte
-- Lista ordenada de compuestos alcanzados (v3.1)
-
 Requisito: pip install networkx
 """
 
